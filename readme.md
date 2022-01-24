@@ -1,0 +1,1 @@
+A simple html, css, and js calculator created for the odin project.
