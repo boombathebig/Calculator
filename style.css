@@ -13,6 +13,7 @@ html{
     display: flex;
     align-items: center;
     flex-flow: column;
+    border-radius: 8px;
     
 }
 .display{
@@ -20,10 +21,12 @@ html{
     width: 30em;
     background-color: rgb(215, 255, 215);
     margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 4px;
 }
 
 .buttonContainer{
-    width: 25em;
+    width: 28em;
     height: 30em;
     display: flex;
     justify-content: row;
@@ -33,15 +36,16 @@ html{
     height: 5rem;
     width: 7em;
     background-color: black;
-    flex: 0 0 calc(33.333% -20px);
+    flex: 0 0 calc(25% -1px);
     margin: 5px;
     color: blanchedalmond;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.clear{
+    height: 5em;
+    width: 30em;
+    margin-bottom: 15px;
+}
 
-#equals{
-    width: 14em;
-    flex: 2 2 calc(66.666%-20px)
-}   
